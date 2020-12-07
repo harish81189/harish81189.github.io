@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+#pragma startup show()
+void show();
+void main()
+{
+	clrscr();
+	printf("main");
+	getch();
+}
+void show()
+{
+	clrscr();
+	printf("show fun");
+	getch();
+}
